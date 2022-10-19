@@ -13,7 +13,7 @@ while s < 0:
     print('cislo nesmi byt mensi jak nula')
     s = float(input('délka strany?'))
 
-#obsah objektu
+#objem objektu
 
 V = (math.sqrt(3) / 2) * s ** 2 * h
 
@@ -22,7 +22,7 @@ while V < 0:
     h = float(input('výška objektu?'))
     s = float(input('délka strany?'))
 
-#objem objektu
+#obsah objektu
 
 P = (3 * math.sqrt(3) / 2) * (s ** 2)
 
@@ -35,5 +35,5 @@ while S < 0:
     h = float(input('výška objektu?'))
     s = float(input('délka strany?'))
 
-print('objem objektu je',S)
-print('obsah objektu je',V)
+print('objem objektu je', V)
+print('obsah objektu je', S)
